@@ -1,0 +1,27 @@
+/* 全てのタグに対して指定 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "ヒラギノ丸ゴ ProN";
+}
+
+
+/* 上部バーの背景 */
+
+.toolBar {
+    background-color: #000000;
+    position: relative;
+}
+
+
+/* 上部バーの
+タイトル部分 */
+
+.toolBarTitle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 42px;
+    color: #ffffff;
+}
