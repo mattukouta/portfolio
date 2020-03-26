@@ -22,26 +22,49 @@
                     <img class="navHeaderImage" src="img/miraidai.jpg" />
                     <p class="navProfileIconImage backgroundWhite"></p>
                 </div>
-                <nav class="navMenu colorWhite">
-                    <ul>
-                        <li class="navList" onclick="drawerClose()">
-                            <img class="listIcon" src="img/manIcon.svg">
-                            <a class="introduction listTextPosition displayBlock" href="#intro"></a>
-                        </li>
-                        <li class="navList" onclick="drawerClose()">
-                            <img class="listIcon" src="img/manIcon.svg">
-                            <a class="activity listTextPosition displayBlock" href="#act"></a>
-                        </li>
-                        <li class="navList" onclick="drawerClose()">
-                            <img class="listIcon" src="img/manIcon.svg">
-                            <a class="production listTextPosition displayBlock" href="#prod"></a>
-                        </li>
-                        <li class="navList" onclick="drawerClose()">
-                            <img class="listIcon" src="img/manIcon.svg">
-                            <a class="link listTextPosition displayBlock" href="#link"></a>
-                        </li>
-                    </ul>
-                </nav>
+                <div class="tabs colorWhite">
+                    <input id="introduction" type="radio" name="tabItem" checked>
+                    <label class="tabItem menuContent" for="introduction" onclick="drawerClose('introduction')">
+                                <img class="listIcon" src="img/manIcon.svg">
+                                <a class="introduction menuText"></a>
+                            </label>
+                    <input id="activity" type="radio" name="tabItem">
+                    <label class="tabItem menuContent" for="activity" onclick="drawerClose('activity')">
+                                <img class="listIcon" src="img/manIcon.svg"/>
+                                <a class="menuText activity"></a>
+                            </label>
+                    <input id="production" type="radio" name="tabItem">
+                    <label class="tabItem menuContent" for="production" onclick="drawerClose('production')">
+                                <img class="listIcon" src="img/manIcon.svg"/>
+                                <a class="production menuText"></a>
+                            </label>
+                    <input id="link" type="radio" name="tabItem">
+                    <label class="tabItem menuContent" for="link" onclick="drawerClose('link')">
+                                <img class="listIcon" src="img/manIcon.svg"/>
+                                <a class="link menuText"></a>
+                            </label>
+
+                    <div class="tabContent" id="introductionContent">
+                        <div class="tab_content_description">
+                            <p class="c-txtsp">自己紹介</p>
+                        </div>
+                    </div>
+                    <div class="tabContent" id="activityContent">
+                        <div class="tabContentDescription">
+                            <p class="c-txtsp">活動</p>
+                        </div>
+                    </div>
+                    <div class="tabContent" id="productionContent">
+                        <div class="tabContentDescription">
+                            <p class="c-txtsp">製作物</p>
+                        </div>
+                    </div>
+                    <div class="tabContent" id="linkContent">
+                        <div class="tabContentDescription">
+                            <p class="c-txtsp">リンク</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
     </section>
