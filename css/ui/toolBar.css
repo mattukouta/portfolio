@@ -1,16 +1,22 @@
+@import url("../value/string.css");
+@import url("../value//font.css");
+
 /* 全てのタグに対して指定 */
 
 * {
     margin: 0px;
     padding: 0px;
-    font-family: "ヒラギノ丸ゴ ProN";
+    font-family: var(--hiraginoMaru);
+}
+
+.headTitle:after {
+    content: var(--headTitle);
 }
 
 
 /* 上部バーの背景 */
 
 .toolBar {
-    background-color: #000000;
     position: relative;
 }
 
@@ -22,6 +28,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    font-size: 42px;
-    color: #ffffff;
+    font-size: var(--portfolioTitleFontSize);
+}
+
+.toolBarTitle:after {
+    content: var(--portfolioTitle);
 }

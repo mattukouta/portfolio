@@ -3,19 +3,46 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>ポートフォリオ</title>
-    <link href="css/baseUI.css" rel="stylesheet" type="text/css" />
-    <link href="css/navigationDrawer.css" rel="stylesheet" type="text/css" />
+    <link href="css/ui/toolbar.css" rel="stylesheet" type="text/css" />
+    <link href="css/ui/navigationDrawer.css" rel="stylesheet" type="text/css" />
+    <link href="css/value/color.css" rel="stylesheet" type="text/css" />
 
-    <section class="toolBar">
-        <div class="toolBarTitle">まっつポートフォリオ</div>
+    <script type="text/javascript" src="javascript/navigationDrawerScript.js"></script>
+
+    <title>ポートフォリオ</title>
+
+    <section class="toolBar backgroundBlack">
+        <div class="toolBarTitle colorWhite"></div>
         <div id="navDrawer" class="navDrawerButtonShadow">
             <input id="navInput" type="checkbox" class="navUnshown">
             <label id="navOpen" for="navInput"><span class = "image"></span></label>
             <label class="navUnshown" id="navClose" for="navInput"></label>
-            <div id="navContent">
+            <div id="navContent" class="backgroundBlack">
+                <div class="navHeader">
+                    <img class="navHeaderImage" src="img/miraidai.jpg" />
+                    <p class="navProfileIconImage backgroundWhite"></p>
+                </div>
+                <nav class="navMenu colorWhite">
+                    <ul>
+                        <li class="navList" onclick="drawerClose()">
+                            <img class="listIcon" src="img/manIcon.svg">
+                            <a class="introduction listTextPosition displayBlock" href="#intro"></a>
+                        </li>
+                        <li class="navList" onclick="drawerClose()">
+                            <img class="listIcon" src="img/manIcon.svg">
+                            <a class="activity listTextPosition displayBlock" href="#act"></a>
+                        </li>
+                        <li class="navList" onclick="drawerClose()">
+                            <img class="listIcon" src="img/manIcon.svg">
+                            <a class="production listTextPosition displayBlock" href="#prod"></a>
+                        </li>
+                        <li class="navList" onclick="drawerClose()">
+                            <img class="listIcon" src="img/manIcon.svg">
+                            <a class="link listTextPosition displayBlock" href="#link"></a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </div>
 
     </section>
 </head>
