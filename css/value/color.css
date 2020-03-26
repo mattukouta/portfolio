@@ -4,10 +4,15 @@
     --menuButtonShadow: #ffffff46;
     --drawerShadow: #0000000f;
     --menuListBorder: #505050;
+    --contentTitleBorder: #b3b3b3;
 }
 
 .backgroundBlack {
     background-color: var(--black);
+}
+
+.topBorderBlack {
+    border-top: medium solid black;
 }
 
 .backgroundGray {

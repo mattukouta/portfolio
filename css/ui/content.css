@@ -1,0 +1,18 @@
+@import url("../value/string.css");
+@import url("../value/font.css");
+@import url("../value/color.css");
+#introductionContent {
+    display: block;
+}
+
+#activityContent {
+    display: none;
+}
+
+#productionContent {
+    display: none;
+}
+
+#linkContent {
+    display: none;
+}
