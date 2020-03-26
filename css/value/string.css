@@ -1,0 +1,9 @@
+:root {
+    /* タイトル */
+    --portfolioTitle: "まっつポートフォリオ";
+    /* navMenu */
+    --introduction: "自己紹介";
+    --activity: "活動内容";
+    --production: "製作物";
+    --link: "リンク";
+}

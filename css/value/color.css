@@ -1,0 +1,28 @@
+:root {
+    --black: #363434;
+    --white: #ffffff;
+    --menuButtonShadow: #ffffff46;
+    --drawerShadow: #0000000f;
+    --menuListBorder: #505050;
+    --contentTitleBorder: #b3b3b3;
+}
+
+.backgroundBlack {
+    background-color: var(--black);
+}
+
+.topBorderBlack {
+    border-top: medium solid black;
+}
+
+.backgroundGray {
+    background-color: var(--whiteShadow);
+}
+
+.colorWhite {
+    color: var(--white);
+}
+
+.backgroundWhite {
+    background-color: var(--white);
+}

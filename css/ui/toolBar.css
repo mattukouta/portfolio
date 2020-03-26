@@ -1,0 +1,36 @@
+@import url("../value/string.css");
+@import url("../value/font.css");
+
+/* 全てのタグに対して指定 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--hiraginoMaru);
+}
+
+.headTitle:after {
+    content: var(--headTitle);
+}
+
+
+/* 上部バーの背景 */
+
+.toolBar {
+    position: relative;
+}
+
+
+/* 上部バーの
+タイトル部分 */
+
+.toolBarTitle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: var(--portfolioTitleFontSize);
+}
+
+.toolBarTitle:after {
+    content: var(--portfolioTitle);
+}

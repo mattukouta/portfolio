@@ -3,14 +3,95 @@
 
 <head>
     <meta charset="UTF-8" />
+    <link href="css/ui/toolbar.css" rel="stylesheet" type="text/css" />
+    <link href="css/ui/navigationDrawer.css" rel="stylesheet" type="text/css" />
+    <link href="css/ui/content.css" rel="stylesheet" type="text/css" />
+    <link href="css/value/color.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="javascript/navigationDrawerScript.js"></script>
+
     <title>ポートフォリオ</title>
-    <!-- <link href="/css/app.css" rel="stylesheet" /> -->
+
+    <section class="toolBar backgroundBlack">
+        <div class="toolBarTitle colorWhite"></div>
+        <div id="navDrawer" class="navDrawerButtonShadow">
+            <input id="navInput" type="checkbox" class="navUnshown">
+            <label id="navOpen" for="navInput"><span class = "image"></span></label>
+            <label class="navUnshown" id="navClose" for="navInput"></label>
+            <div id="navContent" class="backgroundBlack">
+                <div class="navHeader">
+                    <img class="navHeaderImage" src="img/miraidai.jpg" />
+                    <p class="navProfileIconImage backgroundWhite"></p>
+                </div>
+                <div class="tabs colorWhite">
+                    <input id="introduction" type="radio" name="tabItem" checked>
+                    <label class="tabItem menuContent" for="introduction" onclick="drawerClose('introduction')">
+                                <img class="listIcon" src="img/manIcon.svg">
+                                <a class="introduction menuText"></a>
+                            </label>
+                    <input id="activity" type="radio" name="tabItem">
+                    <label class="tabItem menuContent" for="activity" onclick="drawerClose('activity')">
+                                <img class="listIcon" src="img/manIcon.svg"/>
+                                <a class="menuText activity"></a>
+                            </label>
+                    <input id="production" type="radio" name="tabItem">
+                    <label class="tabItem menuContent" for="production" onclick="drawerClose('production')">
+                                <img class="listIcon" src="img/manIcon.svg"/>
+                                <a class="production menuText"></a>
+                            </label>
+                    <input id="link" type="radio" name="tabItem">
+                    <label class="tabItem menuContent" for="link" onclick="drawerClose('link')">
+                                <img class="listIcon" src="img/manIcon.svg"/>
+                                <a class="link menuText"></a>
+                            </label>
+
+                    <!-- <div class="tabContent" id="introductionContent">
+                        <div class="tab_content_description">
+                            <p class="c-txtsp">自己紹介</p>
+                        </div>
+                    </div>
+                    <div class="tabContent" id="activityContent">
+                        <div class="tabContentDescription">
+                            <p class="c-txtsp">活動</p>
+                        </div>
+                    </div>
+                    <div class="tabContent" id="productionContent">
+                        <div class="tabContentDescription">
+                            <p class="c-txtsp">製作物</p>
+                        </div>
+                    </div>
+                    <div class="tabContent" id="linkContent">
+                        <div class="tabContentDescription">
+                            <p class="c-txtsp">リンク</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+    </section>
 </head>
 
-<body>
-    <!-- <div class="container"> -->
-    <a class="hello-title">Hello portfolio!</a>
-    <!-- </div> -->
+<body class="backgroundBlack">
+    <section id="introductionContent" class="topBorderBlack">
+        <div>
+            <p class="colorWhite contentTitle">自己紹介</p>
+        </div>
+    </section>
+    <section id="activityContent" class="topBorderBlack">
+        <div>
+            <p class="colorWhite contentTitle">活動内容</p>
+        </div>
+    </section>
+    <section id="productionContent" class="topBorderBlack">
+        <div>
+            <p class="colorWhite contentTitle">製作物</p>
+        </div>
+    </section>
+    <section id="linkContent" class="topBorderBlack">
+        <div>
+            <p class="colorWhite contentTitle">リンク</p>
+        </div>
+    </section>
 </body>
 </div>
 
