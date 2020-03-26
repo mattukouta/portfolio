@@ -9,9 +9,11 @@
     font-family: var(--hiraginoMaru);
 }
 
+
+/* 
 .headTitle:after {
     content: var(--headTitle);
-}
+} */
 
 
 /* 上部バーの背景 */
@@ -31,6 +33,7 @@
     font-size: var(--portfolioTitleFontSize);
 }
 
-.toolBarTitle:after {
+
+/* .toolBarTitle:after {
     content: var(--portfolioTitle);
-}
+} */
