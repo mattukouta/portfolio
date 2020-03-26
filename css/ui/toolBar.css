@@ -33,7 +33,6 @@
     font-size: var(--portfolioTitleFontSize);
 }
 
-
-/* .toolBarTitle:after {
+.toolBarTitle:after {
     content: var(--portfolioTitle);
-} */
+}
