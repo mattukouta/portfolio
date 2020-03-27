@@ -1,0 +1,9 @@
+:root {
+    --drawerButtonIcon: url("../../img/drawerIcon.svg");
+    --funImage: url("../../img/miraidai.jpg");
+    --myIcon: url("../../img/mattu_icon.png");
+    --introductionIcon: url("../../img/manIcon.svg");
+    --activityIcon: url("../../img/manIcon.svg");
+    --productionIcon: url("../../img/manIcon.svg");
+    --linkIcon: url("../../img/manIcon.svg");
+}
