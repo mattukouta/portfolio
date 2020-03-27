@@ -136,15 +136,13 @@ label .image {
 
 .listIcon {
     width: 32px;
-    /* position: absolute; */
     margin-top: 8px;
+    margin-left: 20px;
 }
 
 .menuText {
     position: absolute;
-    /* margin-top: 10px; */
-    left: 40px;
-    /* top: 6px; */
+    left: 60px;
     font-size: var(--navMenuFontSize);
 }
 
@@ -152,16 +150,32 @@ label .image {
     display: block;
 }
 
+#introductionBackgroundColor {
+    background-color: var(--menuButtonSelected);
+}
+
 .introduction:after {
     content: var(--introduction);
+}
+
+#activityBackgroundColor {
+    background-color: var(--black);
 }
 
 .activity:after {
     content: var(--activity);
 }
 
+#productionBackgroundColor {
+    background-color: var(--black);
+}
+
 .production:after {
     content: var(--production);
+}
+
+.linkBackgroundColor {
+    background-color: var(--black);
 }
 
 .link:after {
@@ -187,7 +201,8 @@ label .image {
 }
 
 .tabItem:hover {
-    background-color: var(--menuButtonShadow);
+    /* background-color: var(--menuButtonShadow); */
+    opacity: 0.25;
 }
 
 input[name="tabItem"] {
@@ -212,7 +227,8 @@ input[name="tabItem"] {
     display: block;
 }
 
-.tabs input:checked+.tabItem {
+
+/* .tabs input:checked+.tabItem {
     background-color: #5ab4bd;
     color: #fff;
-}
+} */
