@@ -14,89 +14,65 @@
 </head>
 
 <body class="backgroundBlack">
-    <section class="toolBar backgroundBlack">
-        <div class="toolBarTitle colorWhite"></div>
-        <div id="navDrawer" class="navDrawerButtonShadow">
-            <input id="navInput" type="checkbox" class="navUnshown">
-            <label id="navOpen" for="navInput"><span class = "image"></span></label>
+    <section class="toolBar backgroundBlack" aria-label="ToolBarおよびNavigationDrawerの表示場所">
+        <div class="toolBarTitle colorWhite" aria-label="ToolBarに白文字でポートフォリオのタイトルを表示"></div>
+        <div class="navDrawerButtonShadow positionAbsolute" aria-label="NavigationDrawerの表示場所">
+            <input id="navInput" type="checkbox" class="navUnshown displayNone" aria-label="ハンバーガー画像の表示とON/OFFの切り替え">
+            <label id="navOpen" for="navInput"><span class = "image positionAbsolute"></span></label>
             <label class="navUnshown" id="navClose" for="navInput"></label>
-            <div id="navContent" class="backgroundBlack">
-                <div class="navHeader">
-                    <img class="navHeaderImage" src="img/miraidai.jpg" />
-                    <p class="navProfileIconImage backgroundWhite"></p>
+            <div id="navContent" class="backgroundBlack" aria-label="Drawerの背景を黒に設定">
+                <div class="positionRelative" aria-label="Drawer内にHeader画像と自分のIconの表示">
+                    <div class="navHeaderImage" aria-label="Header画像"></div>
+                    <p class="navProfileIconImage positionAbsolute backgroundWhite" aria-label="自分のIcon"></p>
                 </div>
-                <div class="tabs colorWhite">
-                    <input id="introduction" type="radio" name="tabItem" checked>
+                <div class="tabs colorWhite" aria-label="切り替え用のリストの表示">
+                    <input id="introduction" class="displayNone" type="radio" aria-label="自己紹介部分の表示および初期選択設定" checked>
                     <label id="introductionBackgroundColor" class="tabItem menuContent" for="introduction" onclick="drawerClose('introduction')">
-                        <img class="listIcon" src="img/manIcon.svg">
-                        <a class="introduction menuText"></a>
+                        <a class="introduction menuText positionAbsolute" aria-label="「自己紹介」の表示"></a>
+                        <div class="listIcon introductionIcon" aria-label="自己紹介のアイコン"></div>
                     </label>
-                    <input id="activity" type="radio" name="tabItem">
+                    <input id="activity" class="displayNone" type="radio" aria-label="活動内容部分の表示">
                     <label id="activityBackgroundColor" class="tabItem menuContent" for="activity" onclick="drawerClose('activity')">
-                        <img class="listIcon" src="img/manIcon.svg"/>
-                        <a class="menuText activity"></a>
+                        <a class="activity menuText positionAbsolute" aria-label="「活動内容」の表示"></a>
+                        <div class="listIcon activityIcon" aria-label="活動内容のアイコン"></div>
                     </label>
-                    <input id="production" type="radio" name="tabItem">
+                    <input id="production" class="displayNone" type="radio" aria-label="成果物部分の表示">
                     <label id="productionBackgroundColor" class="tabItem menuContent" for="production" onclick="drawerClose('production')">
-                        <img class="listIcon" src="img/manIcon.svg"/>
-                        <a class="production menuText"></a>
+                        <a class="production menuText positionAbsolute" aria-label="「成果物」の表示"></a>
+                        <div class="listIcon productionIcon" aria-label="成果物のアイコン"></div>
                     </label>
-                    <input id="link" type="radio" name="tabItem">
+                    <input id="link" class="displayNone" type="radio" aria-label="リスト部分の表示">
                     <label id="linkBackgroundColor" class="tabItem menuContent" for="link" onclick="drawerClose('link')">
-                        <img class="listIcon" src="img/manIcon.svg"/>
-                        <a class="link menuText"></a>
+                        <a class="link menuText positionAbsolute" aria-label="「リンク」の表示"></a>
+                        <div class="listIcon linkIcon " aria-label="リンクのアイコン"></div>
                     </label>
-
-                    <!-- <div class="tabContent" id="introductionContent">
-                        <div class="tab_content_description">
-                            <p class="c-txtsp">自己紹介</p>
-                        </div>
-                    </div>
-                    <div class="tabContent" id="activityContent">
-                        <div class="tabContentDescription">
-                            <p class="c-txtsp">活動</p>
-                        </div>
-                    </div>
-                    <div class="tabContent" id="productionContent">
-                        <div class="tabContentDescription">
-                            <p class="c-txtsp">製作物</p>
-                        </div>
-                    </div>
-                    <div class="tabContent" id="linkContent">
-                        <div class="tabContentDescription">
-                            <p class="c-txtsp">リンク</p>
-                        </div>
-                    </div> -->
                 </div>
             </div>
+        </div>
 
     </section>
 
-    <!-- 自己紹介選択時の表示内容 -->
-    <section id="introductionContent" class="topBorderBlack">
+    <section id="introductionContent" class="topBorderBlack" aria-label="自己紹介選択時の表示内容">
         <div>
-            <p class="colorWhite contentTitle introduction"></p>
+            <p class="colorWhite contentTitle introduction" aria-label="「自己紹介」のタイトル表示"></p>
         </div>
     </section>
 
-    <!-- 活動内容選択時の表示内容 -->
-    <section id="activityContent" class="topBorderBlack">
+    <section id="activityContent" class="topBorderBlack" aria-label="活動内容選択時の表示内容">
         <div>
-            <p class="colorWhite contentTitle activity"></p>
+            <p class="colorWhite contentTitle activity" aria-label="「活動内容」のタイトル表示"></p>
         </div>
     </section>
 
-    <!-- 製作物選択時の表示内容 -->
-    <section id="productionContent" class="topBorderBlack">
+    <section id="productionContent" class="topBorderBlack" aria-label="成果物選択時の表示内容">
         <div>
-            <p class="colorWhite contentTitle production"></p>
+            <p class="colorWhite contentTitle production" aria-label="「成果物」のタイトル表示"></p>
         </div>
     </section>
 
-    <!-- リンク選択時の表示内容 -->
-    <section id="linkContent" class="topBorderBlack">
+    <section id="linkContent" class="topBorderBlack" aria-label="リンク選択時の表示内容">
         <div>
-            <p class="colorWhite contentTitle link"></p>
+            <p class="colorWhite contentTitle link" aria-label="「リンク」のタイトル表示"></p>
         </div>
     </section>
 </body>

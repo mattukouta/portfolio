@@ -1,19 +1,19 @@
 :root {
-    --black: #363434;
+    --black: #000000;
+    --backgroundBlack: #363434;
     --white: #ffffff;
     --menuButtonShadow: #ffffff46;
     --drawerShadow: #0000000f;
-    --menuListBorder: #505050;
     --contentTitleBorder: #b3b3b3;
     --menuButtonSelected: #5ab4bd;
 }
 
 .backgroundBlack {
-    background-color: var(--black);
+    background-color: var(--backgroundBlack);
 }
 
 .topBorderBlack {
-    border-top: medium solid black;
+    border-top: medium solid var(--black);
 }
 
 .backgroundGray {
