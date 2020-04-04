@@ -1,3 +1,23 @@
+@import url("../value/color.css");
+@import url("../value/font.css");
+.contentTitle_j {
+    font-size: var(--contentTitleFont_j_Size);
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contentTitle_e {
+    font-size: var(--contentTitleFont_e_Size);
+    display: inline;
+    margin-left: 10px;
+}
+
+.titleBorder {
+    border-bottom: 1px solid var(--contentTitleBorder);
+    width: 97%;
+}
+
 #introductionContent {
     display: block;
 }

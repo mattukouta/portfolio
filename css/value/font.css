@@ -3,13 +3,6 @@
     --hiraginoMaru: "ヒラギノ丸ゴ ProN";
     --portfolioTitleFontSize: 42px;
     --navMenuFontSize: 24px;
-    --contentTitleFontSize: 40px;
-}
-
-.contentTitle {
-    font-size: var(--contentTitleFontSize);
-    border-bottom: 1px solid var(--contentTitleBorder);
-    width: 97%;
-    margin-top: 10px;
-    margin-left: 10px;
+    --contentTitleFont_j_Size: 40px;
+    --contentTitleFont_e_Size: 25px;
 }

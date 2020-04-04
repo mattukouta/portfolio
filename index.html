@@ -28,22 +28,22 @@
                 <div class="tabs colorWhite" aria-label="切り替え用のリストの表示">
                     <input id="introduction" class="displayNone" type="radio" aria-label="自己紹介部分の表示および初期選択設定" checked>
                     <label id="introductionBackgroundColor" class="tabItem menuContent" for="introduction" onclick="drawerClose('introduction')">
-                        <a class="introduction menuText positionAbsolute" aria-label="「自己紹介」の表示"></a>
+                        <a class="introduction_j menuText positionAbsolute" aria-label="「自己紹介」の表示"></a>
                         <div class="listIcon introductionIcon" aria-label="自己紹介のアイコン"></div>
                     </label>
                     <input id="activity" class="displayNone" type="radio" aria-label="活動内容部分の表示">
                     <label id="activityBackgroundColor" class="tabItem menuContent" for="activity" onclick="drawerClose('activity')">
-                        <a class="activity menuText positionAbsolute" aria-label="「活動内容」の表示"></a>
+                        <a class="activity_j menuText positionAbsolute" aria-label="「活動内容」の表示"></a>
                         <div class="listIcon activityIcon" aria-label="活動内容のアイコン"></div>
                     </label>
                     <input id="production" class="displayNone" type="radio" aria-label="成果物部分の表示">
                     <label id="productionBackgroundColor" class="tabItem menuContent" for="production" onclick="drawerClose('production')">
-                        <a class="production menuText positionAbsolute" aria-label="「成果物」の表示"></a>
+                        <a class="production_j menuText positionAbsolute" aria-label="「成果物」の表示"></a>
                         <div class="listIcon productionIcon" aria-label="成果物のアイコン"></div>
                     </label>
                     <input id="link" class="displayNone" type="radio" aria-label="リスト部分の表示">
                     <label id="linkBackgroundColor" class="tabItem menuContent" for="link" onclick="drawerClose('link')">
-                        <a class="link menuText positionAbsolute" aria-label="「リンク」の表示"></a>
+                        <a class="link_j menuText positionAbsolute" aria-label="「リンク」の表示"></a>
                         <div class="listIcon linkIcon " aria-label="リンクのアイコン"></div>
                     </label>
                 </div>
@@ -53,26 +53,30 @@
     </section>
 
     <section id="introductionContent" class="topBorderBlack" aria-label="自己紹介選択時の表示内容">
-        <div>
-            <p class="colorWhite contentTitle introduction" aria-label="「自己紹介」のタイトル表示"></p>
+        <div class="titleBorder">
+            <p class="colorWhite contentTitle_j introduction_j" aria-label="「自己紹介」のタイトル表示"> </p>
+            <p class="colorWhite contentTitle_e introduction_e" aria-label="「自己紹介」のタイトルの英単語表示"></p>
         </div>
     </section>
 
     <section id="activityContent" class="topBorderBlack" aria-label="活動内容選択時の表示内容">
-        <div>
-            <p class="colorWhite contentTitle activity" aria-label="「活動内容」のタイトル表示"></p>
+        <div class="titleBorder">
+            <p class="colorWhite contentTitle_j activity_j" aria-label="「活動内容」のタイトル表示"></p>
+            <p class="colorWhite contentTitle_e activity_e" aria-label="「活動内容」のタイトルの英単語表示"></p>
         </div>
     </section>
 
     <section id="productionContent" class="topBorderBlack" aria-label="成果物選択時の表示内容">
-        <div>
-            <p class="colorWhite contentTitle production" aria-label="「成果物」のタイトル表示"></p>
+        <div class="titleBorder">
+            <p class="colorWhite contentTitle_j production_j" aria-label="「成果物」のタイトル表示"></p>
+            <p class="colorWhite contentTitle_e production_e" aria-label="「成果物」のタイトルの英単語表示"></p>
         </div>
     </section>
 
     <section id="linkContent" class="topBorderBlack" aria-label="リンク選択時の表示内容">
-        <div>
-            <p class="colorWhite contentTitle link" aria-label="「リンク」のタイトル表示"></p>
+        <div class="titleBorder">
+            <p class="colorWhite contentTitle_j link_j" aria-label="「リンク」のタイトル表示"></p>
+            <p class="colorWhite contentTitle_e link_e" aria-label="「リンク」のタイトルの英単語表示"></p>
         </div>
     </section>
 </body>

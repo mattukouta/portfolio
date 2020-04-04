@@ -1,9 +1,42 @@
 :root {
-    /* タイトル */
+    /* 
+      タイトル
+    */
     --portfolioTitle: "まっつポートフォリオ";
-    /* navMenu */
-    --introduction: "自己紹介";
-    --activity: "活動内容";
-    --production: "製作物";
-    --link: "リンク";
+    /* 
+      navMenu 
+    */
+    --introduction_j: "自己紹介";
+    --introduction_e: "Introduction";
+    --activity_j: "活動内容";
+    --activity_e: "Activity";
+    --production_j: "製作物";
+    --production_e: "Production";
+    --link_j: "リンク";
+    --link_e: "Link";
+    /* 
+      自己紹介 
+    */
+    /*  */
+    /* 名前 */
+    --myNameKanji: "高松 耕太";
+    --myNameHiragana: "たかまつ こうた";
+    --myNameKatakana: "タカマツ コウタ";
+    --myName_e: "Kouta Takamatsu";
+    /* 大学 */
+    --myUniversity_j: "公立はこだて未来大学";
+    --graduateSchool_j: "システム情報科学研究科";
+    --researchField_j: "高度ICT領域";
+    --myUniversity_e: "Future University Hakodate";
+    --graduateSchool_e: "Graduate School of Systems Information Science";
+    --researchField_e: "Advanced ICT Field";
+    /* 
+      活動内容
+    */
+    /* 
+      製作物 
+    */
+    /* 
+      リンク 
+    */
 }

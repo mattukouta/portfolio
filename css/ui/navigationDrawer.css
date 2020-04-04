@@ -150,8 +150,12 @@ label .image {
     background-color: var(--menuButtonSelected);
 }
 
-.introduction:after {
-    content: var(--introduction);
+.introduction_j:after {
+    content: var(--introduction_j);
+}
+
+.introduction_e:after {
+    content: var(--introduction_e);
 }
 
 .activityIcon {
@@ -164,8 +168,12 @@ label .image {
     background-color: var(--backgroundBlack);
 }
 
-.activity:after {
-    content: var(--activity);
+.activity_j:after {
+    content: var(--activity_j);
+}
+
+.activity_e:after {
+    content: var(--activity_e);
 }
 
 .productionIcon {
@@ -178,8 +186,12 @@ label .image {
     background-color: var(--backgroundBlack);
 }
 
-.production:after {
-    content: var(--production);
+.production_j:after {
+    content: var(--production_j);
+}
+
+.production_e:after {
+    content: var(--production_e);
 }
 
 .linkIcon {
@@ -192,8 +204,12 @@ label .image {
     background-color: var(--backgroundBlack);
 }
 
-.link:after {
-    content: var(--link);
+.link_j:after {
+    content: var(--link_j);
+}
+
+.link_e:after {
+    content: var(--link_e);
 }
 
 .tabs {
