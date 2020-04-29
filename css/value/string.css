@@ -1,9 +1,55 @@
 :root {
-    /* タイトル */
+    /* 
+      タイトル
+    */
     --portfolioTitle: "まっつポートフォリオ";
-    /* navMenu */
-    --introduction: "自己紹介";
-    --activity: "活動内容";
-    --production: "製作物";
-    --link: "リンク";
+    /* 
+      navMenu 
+    */
+    --introduction_j: "自己紹介";
+    --introduction_e: "Introduction";
+    --activity_j: "活動内容";
+    --activity_e: "Activity";
+    --production_j: "製作物";
+    --production_e: "Production";
+    --link_j: "リンク";
+    --link_e: "Link";
+    /* 
+      自己紹介 
+    */
+    /* タイトル */
+    --nameTitle_j: "名前";
+    --nameTitle_e: "Name";
+    --universityTitle_j: "大学";
+    --universityTitle_e: "University";
+    --hobbyTitle_j: "趣味";
+    --hobbyTitle_e: "Hobby";
+    /* 名前 */
+    --myNameKanji: "高松 耕太";
+    --myNameHiragana: "たかまつ こうた";
+    --myNameKatakana: "タカマツ コウタ";
+    --myName_e: "Kouta Takamatsu";
+    /* 大学 */
+    --myUniversity_j: "公立はこだて未来大学";
+    --myUniversity_e: "Future University Hakodate";
+    --graduateSchool_j: "システム情報科学研究科";
+    --graduateSchool_e: "Graduate School of Systems Information Science";
+    --researchField_j: "高度ICT領域 1年";
+    --researchField_e: "Advanced ICT Field, First Year Master's student";
+    /* 趣味 */
+    --myHobbyBaseball_j: "野球観戦";
+    --myHobbyBaseball_e: "Watching Baseball";
+    --myHobbyComic_j: "漫画を読む";
+    --myHobbyComic_e: "Reading Comics";
+    --myHobbyViveos_j: "動画鑑賞";
+    --myHobbyViveos_e: "Watching Videos";
+    /* 
+      活動内容
+    */
+    /* 
+      製作物 
+    */
+    /* 
+      リンク 
+    */
 }

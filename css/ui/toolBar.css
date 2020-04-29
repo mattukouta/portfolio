@@ -13,6 +13,7 @@
 /* 上部バーの背景 */
 
 .toolBar {
+    height: 80px;
     position: relative;
 }
 
@@ -27,6 +28,6 @@
     font-size: var(--portfolioTitleFontSize);
 }
 
-.toolBarTitle:after {
+.toolBarTitle::after {
     content: var(--portfolioTitle);
 }

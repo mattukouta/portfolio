@@ -1,14 +1,260 @@
+@import url("../value/color.css");
+@import url("../value/font.css");
+@import url("../value/imgPath.css");
+
+/* 
+  タイトル部分 
+*/
+
+.contentTitle_j {
+    font-size: var(--contentTitleFont_j_Size);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contentTitle_e {
+    font-size: var(--contentTitleFont_e_Size);
+    margin-left: 10px;
+}
+
+.titleBorder {
+    border-bottom: 1px solid var(--contentTitleBorder);
+    align-items: flex-end;
+}
+
+.titleMargin {
+    margin-top: 20px;
+}
+
+.verticalTop {
+    vertical-align: top;
+}
+
+
+/* 
+  content部分 
+*/
+
+
+/* 自己紹介 */
+
 #introductionContent {
     display: block;
 }
+
+#profileMyIcon {
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: var(--myImage);
+    background-size: 115%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-position: left top;
+}
+
+.profileSubTitle_Background {
+    border-radius: 20px;
+    min-width: 80px;
+    text-align: center;
+    font-size: var(--contentSubTitleFont);
+    color: var(--subTitleColor);
+    background-color: var(--contentSubTitle);
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profileSubTitle_j {
+    font-size: var(--contentSubTitleFont_j_Size);
+    color: var(--white);
+    margin-left: 10px;
+}
+
+.profileSubTitle_e {
+    font-size: var(--contentSubTitleFont_e_Size);
+    color: var(--white);
+    display: inline;
+    vertical-align: middle;
+    margin-left: 30px;
+    padding-right: 100px;
+}
+
+.profileDetails {
+    margin-left: 60px;
+}
+
+.introduceList {
+    margin-left: 40px;
+}
+
+.listDetails {
+    margin-left: 30px;
+}
+
+.huriganaFontSize {
+    font-size: var(--huriganaFontSize);
+}
+
+.detailsFontSize_j {
+    font-size: var(--detailsFont_j_Size);
+}
+
+.detailsFontSize_e {
+    font-size: var(--detailsFont_e_Size);
+}
+
+.alignItemsFlexEnd {
+    align-items: flex-end;
+}
+
+.alignItemsCenter {
+    align-items: center;
+}
+
+.contentDetailsSpace {
+    width: 12em;
+}
+
+.contentDetailsImageSpace {
+    width: 33em;
+}
+
+
+/* 活動内容 */
 
 #activityContent {
     display: none;
 }
 
+#nameTitle_j::after {
+    content: var(--nameTitle_j);
+    user-select: text;
+}
+
+#nameTitle_e::after {
+    content: var(--nameTitle_e);
+}
+
+#nameDetails::after {
+    content: var(--myNameKanji);
+}
+
+#universityTitle_j::after {
+    content: var(--universityTitle_j);
+}
+
+#universityTitle_e::after {
+    content: var(--universityTitle_e);
+}
+
+#universityDetails::after {
+    content: var(--hobbyTitle);
+}
+
+#hobbyTitle_j::after {
+    content: var(--hobbyTitle_j);
+}
+
+#hobbyTitle_e::after {
+    content: var(--hobbyTitle_e);
+}
+
+#hobbyDetails::after {
+    content: var(--hobbyTitle);
+}
+
+#myNameHurigana::after {
+    content: var(--myNameHiragana);
+}
+
+#myName_j::after {
+    content: var(--myNameKanji);
+}
+
+#myName_e::after {
+    content: var(--myName_e);
+}
+
+#nameImage {
+    margin-top: 10px;
+    background-image: var(--myIcon);
+    background-size: 115%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-position: left top;
+}
+
+#myUniversity_j::after {
+    content: var(--myUniversity_j);
+}
+
+#myUniversity_e::after {
+    content: var(--myUniversity_e);
+}
+
+#funImage {
+    margin-top: 10px;
+    background-image: var(--funLogo);
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-position: left top;
+}
+
+#graduateSchool_j::after {
+    content: var(--graduateSchool_j);
+}
+
+#graduateSchool_e::after {
+    content: var(--graduateSchool_e);
+}
+
+#researchField_j::after {
+    content: var(--researchField_j);
+}
+
+#researchField_e::after {
+    content: var(--researchField_e);
+}
+
+#hobbyBaseball_j::after {
+    content: var(--myHobbyBaseball_j);
+}
+
+#hobbyBaseball_e::after {
+    content: var(--myHobbyBaseball_e);
+}
+
+#hobbyComics_j::after {
+    content: var(--myHobbyComic_j);
+}
+
+#hobbyComics_e::after {
+    content: var(--myHobbyComic_e);
+}
+
+#hobbyVideos_j::after {
+    content: var(--myHobbyViveos_j);
+}
+
+#hobbyVideos_e::after {
+    content: var(--myHobbyViveos_e);
+}
+
+/* 成果物 */
+
 #productionContent {
     display: none;
 }
+
+
+/* リンク */
 
 #linkContent {
     display: none;
