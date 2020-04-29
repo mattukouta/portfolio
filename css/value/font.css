@@ -4,5 +4,11 @@
     --portfolioTitleFontSize: 42px;
     --navMenuFontSize: 24px;
     --contentTitleFont_j_Size: 40px;
-    --contentTitleFont_e_Size: 25px;
+    --contentTitleFont_e_Size: 24px;
+    --contentSubTitleFont_j_Size: 24px;
+    --contentSubTitleFont_e_Size: 16px;
+    --contentDetailsFont_Size: 16px;
+    --huriganaFontSize: 12px;
+    --detailsFont_j_Size: 16px;
+    --detailsFont_e_Size: 12px;
 }

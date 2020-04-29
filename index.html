@@ -53,30 +53,123 @@
     </section>
 
     <section id="introductionContent" class="topBorderBlack" aria-label="自己紹介選択時の表示内容">
-        <div class="titleBorder">
-            <p class="colorWhite contentTitle_j introduction_j" aria-label="「自己紹介」のタイトル表示"> </p>
-            <p class="colorWhite contentTitle_e introduction_e" aria-label="「自己紹介」のタイトルの英単語表示"></p>
+        <div class="titleBorder" aria-label="自己紹介のタイトル">
+            <p class="displayInline colorWhite contentTitle_j introduction_j" aria-label="「自己紹介」のタイトル表示"> </p>
+            <p class="displayInline colorWhite contentTitle_e introduction_e" aria-label="「自己紹介」のタイトルの英単語表示"></p>
+        </div>
+        <div class="displayInline displayInlineFlex" aria-label="自己紹介内容">
+            <p id="profileMyIcon" class="backgroundWhite" aria-label="自分のIcon"></p>
+            <!-- <li class="displayInlineBlock verticalTop">
+                <div>
+                    <p id="nameTitle" class="displayInlineBlock profileSubTitle_Background"></p>
+                    <p id="nameDetails" class="whiteColor profileDetails"></p>
+                </div>
+                <div>
+                    <p id="universityTitle" class="displayInlineBlock profileSubTitle_Background"></p>
+                    <p id="universityDetails" class="whiteColor profileDetails"></p>
+                </div>
+                <div>
+                    <p id="hobbyTitle" class="displayInlineBlock profileSubTitle_Background"></p>
+                    <p id="hobbyDetails" class="whiteColor profileDetails"></p>
+                </div>
+            </li> -->
+            <!-- <div class="displayBlock verticalTop">
+                <div class="displayBlock titleBorder">
+                    <p id="nameTitle_j" class="displayInline profileSubTitle_j"></p>
+                    <p id="nameTitle_e" class="displayInline profileSubTitle_e"></p>
+                </div>
+                <div>
+                    <p id="universityTitle" class="profileSubTitle titleBorder"></p>
+                </div>
+                <div>
+                    <p id="hobbyTitle" class="profileSubTitle titleBorder"></p>
+                </div>
+            </div> -->
+            <div class="displayFlex displayFlexDirectionColumn verticalTop introduceList" aria-label="自己紹介部分">
+                <div class="displayInlineFlex titleBorder" aria-label="名前のタイトル">
+                    <p id="nameTitle_j" class="profileSubTitle_j" aria-label="名前の日本語"></p>
+                    <p id="nameTitle_e" class="profileSubTitle_e" aria-label="名前の英語"></p>
+                </div>
+                <div class="displayInlineFlex colorWhite listDetails alignItemsFlexEnd" aria-label="名前詳細">
+                    <span class="displayInlineBlock contentDetailsImageSpace" aria-label="画像を含む詳細部分">
+                    <span class="displayInlineBlock contentDetailsSpace" aria-label="画像を含まない詳細部分">
+                        <div >
+                            <p id="myNameHurigana" class="huriganaFontSize" aria-label="名前の振り仮名"></p>
+                            <p id="myName_j" class="detailsFontSize_j" aria-label="名前"></p>
+                        </div>
+                    </span>
+                    <div id="myName_e" class="displayInline detailsFontSize_e" aria-label="名前の英語"></div>
+                    </span>
+                    <p id="nameImage" class="backgroundWhite" aria-label="自分のIcon"></p>
+                </div>
+                <div class="displayInlineFlex titleBorder titleMargin" aria-label="大学のタイトル">
+                    <p id="universityTitle_j" class="profileSubTitle_j" aria-label="大学の日本語"></p>
+                    <p id="universityTitle_e" class="profileSubTitle_e" aria-label="大学の英語"></p>
+                </div>
+                <div class="displayInlineFlex colorWhite listDetails alignItemsCenter" aria-label="大学詳細">
+                    <span class="contentDetailsImageSpace">
+                    <span id="myUniversity_j" class="displayInlineBlock detailsFontSize_j contentDetailsSpace" aria-label="大学名の日本語"></span>
+                    <div id="myUniversity_e" class="displayInline detailsFontSize_e" aria-label="大学名の英語"></div>
+                    <br>
+                    <span id="graduateSchool_j" class="displayInlineBlock detailsFontSize_j contentDetailsSpace" aria-label="研究科の日本語"></span>
+                    <div id="graduateSchool_e" class="displayInline detailsFontSize_e" aria-label="研究科の日本語"></div>
+                    <br>
+                    <span id="researchField_j" class="displayInlineBlock detailsFontSize_j contentDetailsSpace" aria-label="領域の日本語"></span>
+                    <div id="researchField_e" class="displayInline detailsFontSize_e" aria-label="領域の日本語"></div>
+                    </span>
+                    <p id="funImage" class="backgroundWhite" aria-label="大学のロゴ"></p>
+                </div>
+                <div class="displayInlineFlex titleBorder titleMargin" aria-label="趣味のタイトル">
+                    <p id="hobbyTitle_j" class="profileSubTitle_j" aria-label="趣味の日本語"></p>
+                    <p id="hobbyTitle_e" class="profileSubTitle_e" aria-label="趣味の英語"></p>
+                </div>
+                <div class="colorWhite listDetails alignItemsFlexEnd" aria-label="趣味詳細">
+                    <div class="displayInlineFlex alignItemsCenter ">
+                        <span class="displayInlineBlock contentDetailsImageSpace" aria-label="野球内容">
+                        <span id="hobbyBaseball_j" class="displayInlineBlock detailsFontSize_j contentDetailsSpace" aria-label="野球の日本語"></span>
+                        <div id="hobbyBaseball_e" class="displayInline detailsFontSize_e" aria-label="野球の英語"></div>
+                        </span>
+                        <p id="funImage" class="displayInline backgroundWhite" aria-label="野球のIcon"></p>
+                    </div>
+                    <br>
+                    <div class="displayInlineFlex alignItemsCenter">
+                        <span class="displayInlineBlock contentDetailsImageSpace" aria-label="野球内容">
+                        <span id="hobbyComics_j" class="displayInlineBlock detailsFontSize_j contentDetailsSpace" aria-label="漫画の日本語"></span>
+                        <div id="hobbyComics_e" class="displayInline detailsFontSize_e" aria-label="漫画の英語"></div>
+                        </span>
+                        <p id="funImage" class="backgroundWhite" aria-label="漫画のIcon"></p>
+                    </div>
+                    <br>
+                    <div class="displayInlineFlex alignItemsCenter">
+                        <span class="displayInlineBlock contentDetailsImageSpace" aria-label="野球内容">
+                        <span id="hobbyVideos_j" class="displayInlineBlock detailsFontSize_j contentDetailsSpace" aria-label="動画の日本語"></span>
+                        <div id="hobbyVideos_e" class="displayInline detailsFontSize_e" aria-label="動画の英語"></div>
+                        </span>
+                        <p id="funImage" class="backgroundWhite" aria-label="動画のIcon"></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="activityContent" class="topBorderBlack" aria-label="活動内容選択時の表示内容">
-        <div class="titleBorder">
-            <p class="colorWhite contentTitle_j activity_j" aria-label="「活動内容」のタイトル表示"></p>
-            <p class="colorWhite contentTitle_e activity_e" aria-label="「活動内容」のタイトルの英単語表示"></p>
+        <div class="titleBorder" aria-label="活動内容のタイトル">
+            <p class="displayInlineBlock colorWhite contentTitle_j activity_j" aria-label="「活動内容」のタイトル表示"></p>
+            <p class="displayBlock colorWhite contentTitle_e activity_e" aria-label="「活動内容」のタイトルの英単語表示"></p>
         </div>
     </section>
 
     <section id="productionContent" class="topBorderBlack" aria-label="成果物選択時の表示内容">
-        <div class="titleBorder">
-            <p class="colorWhite contentTitle_j production_j" aria-label="「成果物」のタイトル表示"></p>
-            <p class="colorWhite contentTitle_e production_e" aria-label="「成果物」のタイトルの英単語表示"></p>
+        <div class="titleBorder" aria-label="成果物のタイトル">
+            <p class="displayInlineBlock colorWhite contentTitle_j production_j" aria-label="「成果物」のタイトル表示"></p>
+            <p class="displayInline colorWhite contentTitle_e production_e" aria-label="「成果物」のタイトルの英単語表示"></p>
         </div>
     </section>
 
     <section id="linkContent" class="topBorderBlack" aria-label="リンク選択時の表示内容">
-        <div class="titleBorder">
-            <p class="colorWhite contentTitle_j link_j" aria-label="「リンク」のタイトル表示"></p>
-            <p class="colorWhite contentTitle_e link_e" aria-label="「リンク」のタイトルの英単語表示"></p>
+        <div class="titleBorder" aria-label="リンクのタイトル">
+            <p class="displayInlineBlock colorWhite contentTitle_j link_j" aria-label="「リンク」のタイトル表示"></p>
+            <p class="displayInline colorWhite contentTitle_e link_e" aria-label="「リンク」のタイトルの英単語表示"></p>
         </div>
     </section>
 </body>

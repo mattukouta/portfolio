@@ -16,6 +16,30 @@
     display: none;
 }
 
+.displayInlineBlock {
+    display: inline-block;
+}
+
+.displayInline {
+    display: inline;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.displayInlineFlex {
+    display: inline-flex;
+}
+
+.displayFlexDirectionRow {
+    flex-direction: row;
+}
+
+.displayFlexDirectionColumn {
+    flex-direction: column;
+}
+
 
 /* ナビゲーションボタンの設定 */
 
@@ -25,6 +49,8 @@
     border-radius: 50%;
     left: 20px;
     top: 2px;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
 }
 
 
@@ -38,6 +64,9 @@ label .image {
     left: 15px;
     top: 15px;
     background: var(--drawerButtonIcon);
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px; */
     width: 50px;
     height: 50px;
 }
@@ -53,7 +82,7 @@ label .image {
     bottom: -8px;
 }
 
-#navOpen span:after {
+#navOpen span::after {
     bottom: -16px;
 }
 
@@ -150,11 +179,11 @@ label .image {
     background-color: var(--menuButtonSelected);
 }
 
-.introduction_j:after {
+.introduction_j::after {
     content: var(--introduction_j);
 }
 
-.introduction_e:after {
+.introduction_e::after {
     content: var(--introduction_e);
 }
 
@@ -168,11 +197,11 @@ label .image {
     background-color: var(--backgroundBlack);
 }
 
-.activity_j:after {
+.activity_j::after {
     content: var(--activity_j);
 }
 
-.activity_e:after {
+.activity_e::after {
     content: var(--activity_e);
 }
 
@@ -186,11 +215,11 @@ label .image {
     background-color: var(--backgroundBlack);
 }
 
-.production_j:after {
+.production_j::after {
     content: var(--production_j);
 }
 
-.production_e:after {
+.production_e::after {
     content: var(--production_e);
 }
 
@@ -204,11 +233,11 @@ label .image {
     background-color: var(--backgroundBlack);
 }
 
-.link_j:after {
+.link_j::after {
     content: var(--link_j);
 }
 
-.link_e:after {
+.link_e::after {
     content: var(--link_e);
 }
 
